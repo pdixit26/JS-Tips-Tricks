@@ -114,3 +114,46 @@ It’s because JavaScript only hoists declarations. Initializations are not hois
 
 In other words, it’s something that can AUTOMATICALLY find the dumb mistakes we all make, so you can fix them without thinking. It’ll make your code break less and prevent some very confusing problems.
 Some of the linting tools are JSHint (new, fairly common, and the one I recommend), ESLint (newer, powerful)  and JSLint (the original JS linting tool).
+
+# call() vs apply()
+var test = function() {
+  return arguments
+}
+
+var args1 = test.apply(this, ['Jack', 'John'], 'Jill')
+var args2 = test.call(this, ['Jack', 'John'], 'Jill')
+
+console.log(args1[1])
+console.log(args2[1])
+
+explanation: both can be called on function, while they run on context of the first argument. In call() the arguments are passed as they are while apply() expects second argument to be an array. 
+
+output 
+Jack,John
+jack
+
+
+console.log(args1[2])
+console.log(args2[2])
+
+output
+Jill
+John
+
+
+# splice, slice, split
+The splice() method adds/removes items to/from an array, and returns the removed item(s).
+array.splice(index, howmany, item1, ....., itemX)
+index: where to add/remove items.
+
+Note: This method changes the original array.
+
+The slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
+
+Note: The original array will not be changed.
+
+
+The split() method is used to split a string into an array of substrings, and returns the new array.
+string.split(separator, limit)
+
+
