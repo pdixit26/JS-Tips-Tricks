@@ -157,3 +157,29 @@ The split() method is used to split a string into an array of substrings, and re
 string.split(separator, limit)
 
 
+# Top Javascript interview questions 
+1. What is difference between var and let?
+2. What is difference between == and === ?
+3. What is difference between const and let? 
+4. what is difference between undefined and null? 
+5. what is difference between function declaration and funcion expression?
+6. What is arrow functions? 
+7. what is protype inheritance? 
+8. what is promises? Why we should use them ?
+9. what is clousure? whey we should use them?
+10. what happens when SetTimeout(fun(){}, 0) is expecuted? 
+
+
+
+
+
+# TOP CSS/HTML questions 
+1. what is box model? explain with proper example and diagram for content, padding, margin, border. 
+2. what is specificity? 
+3. How to align block element in another block element? 
+4. Difference between static, absolute, fixed, relative position?
+5. Difference between visibility:hidden and display:none?
+6. What is shadow dom? and what is its use? 
+7. how to build a trianagle using pure CSS?
+8. what is pseudo elements and pseudo clss in CSS? <p>Hi</p>   p:hove::after{content:"this is text for pseudo element"}
+9. What is data attributes?
