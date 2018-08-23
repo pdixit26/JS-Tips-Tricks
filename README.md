@@ -183,3 +183,10 @@ string.split(separator, limit)
 7. how to build a trianagle using pure CSS?
 8. what is pseudo elements and pseudo clss in CSS? <p>Hi</p>   p:hove::after{content:"this is text for pseudo element"}
 9. What is data attributes?
+
+
+•	Web workers
+•	Higher order functions 
+•	single threaded and asynchronous nature of javascript --- 
+•	inversion of control
+•	dependency injection
