@@ -1,0 +1,14 @@
+#What is difference between var and let?
+Ans: 
+1. Let is ES15. Var is there since beginning
+2. Let has block scope. Var has function scope. 
+3. Variable created by VAR gets hoisted but by LET it does not. 
+What is difference between == and === ?
+What is difference between const and let?
+what is difference between undefined and null?
+what is difference between function declaration and funcion expression?
+What is arrow functions?
+what is protype inheritance?
+what is promises? Why we should use them ?
+what is clousure? whey we should use them?
+what happens when SetTimeout(fun(){}, 0) is expecuted?
