@@ -96,5 +96,56 @@ function isItHoisted() {
 What is close method in Javascript do?
 if its called on window onject it closes the window and if its called on the document object it closes the document. 
 ======================================================================================================================================
+Whats the output of
+console.log([]+[]) or console.log({} + [])// outputs nothing
+explanation: empty array[]/empty obejct{} is converted to  empty string and empty string + empty string = empty string 
+=======================================================================================================================================
+whats the output of 
+function a(){
+return 'hello';
+}
+const sentence = a 'hi';
+console.log(sentence);
+Explanation: a 'hi' is considered as TAGGED TEMPLATE and will be same as a('hi'); hence it will print and hi will be ignored as a function doesnt take 
+any argument
+
+===========================================================================================================================================
+take any web page and make its content editable. 
+Answer:
+<div contenteditable="true"> Hello 
+</div> /// makes it editable 
+
+to make the page editable 
+document.body.contentediatble = true;// makes it editable 
+============================================================================================================================
+whats the output of
+function y(){
+console.log(this.length):
+}
+
+var x = {
+length:5,
+method:function(y){
+arguments[0]();
+}
+}
+x.method(y,1); // ot outputs 2 .. beca
+
+=================================================================================================================================
+const x = 'constructor';
+cosole.log(x[x](01));
+x[constructor] = string 
+string(01) //outputs 1; 
+=====================================================================================================================================
+whats the output 
+console.log(0.1+0.2); // outputs 0.30000000000004 becoz numbers are treated as floating point precision
+to solve this issue 
+if()
+=============================
+cosnole.log(('hi').__proto.__proto)
+
+'hi' - is string 
+string.__proto gives Object
+Object.__proto gives 
 
 
