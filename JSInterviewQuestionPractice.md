@@ -1,4 +1,4 @@
-Q:What is difference between var and let?
+# Q:What is difference between var and let?
 Ans: 
 1. Let is ES15. Var is there since beginning
 2. Let has block scope. Var has function scope. 
